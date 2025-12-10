@@ -40,7 +40,7 @@ public class StudentsDatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    // CRUD methods go here
+
     public long insert(ContentValues values) {
         return getWritableDatabase().insert(TABLE_NAME, null, values);
     }
